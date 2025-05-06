@@ -1,0 +1,3 @@
+# 不拦截的域名
+whitelist:
+  - "https://bStats.org"

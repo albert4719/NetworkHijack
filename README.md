@@ -1,5 +1,7 @@
 ## NetworkHijack 
-Bukkit插件,拦截并重放其他插件所有http请求响应体
+![05d5ccf25633115a818cdb941a42e301](https://github.com/user-attachments/assets/53e08bb3-79ef-427f-aa3c-7d8a25bc66d6)
+
+Bukkit插件,拦截并重放其他插件所有http请求响应体\
 指令/nh start 插件名称,开始记录此插件发送的http请求,控制台可看到输出 \
 指令/nh stop 插件名称，停止记录 \
 如果插件在start之前就已经发送了请求，可以使用plugman重载此插件(有概率无法捕获请求),如果无法捕获直接重启服务器即可,会自动记录上次start的插件 \

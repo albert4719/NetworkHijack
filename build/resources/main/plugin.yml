@@ -2,7 +2,7 @@ name: network-hijack
 version: '1.0-SNAPSHOT'
 main: me.albert.network_hijack.NetworkHijack
 load: STARTUP
-api-version: '1.20'
+api-version: '1.13'
 commands:
   nwhj:
     aliases: [ 'nh' ]
